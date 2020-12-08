@@ -1,0 +1,205 @@
+/* Keuzen menu */
+.menu {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 40%;
+  left: 47%;
+}
+
+.menu_text {
+  font-size: 30px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 30%;
+  left: 41%;
+}
+
+.pandButton {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.klantButton {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.crudButtons2 {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.crudButtons {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* Pand maken */
+.pand-overlayMaken {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 25%;
+}
+
+.pand-overlayMaken.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.pandMakenPopup {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.pandMakenPopup.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+/* Pand Updaten */
+.pand-overlayUpdaten {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 25%;
+}
+
+.pand-overlayUpdaten.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.pandUpdatenPopup {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.pandUpdatenPopup.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+/* Klant Overzicht */
+.pand-overlayOverzicht {
+  visibility: visible;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 40%;
+}
+
+.pand-overlayOverzicht.active {
+  visibility: hidden;
+}
+
+/* --------------------------------------------------------------------------*/
+
+/* Klant maken */
+.klant-overlayMaken {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 25%;
+}
+
+.klant-overlayMaken.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.klantMakenPopup {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.klantMakenPopup.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+/* Klant Overzicht */
+.klant-overlayOverzicht {
+  visibility: visible;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 40%;
+}
+
+.klant-overlayOverzicht.active {
+  visibility: hidden;
+}
+
+/* Klant Updaten */
+.klant-overlayUpdaten {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 25%;
+}
+
+.klant-overlayUpdaten.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.klantUpdatenPopup {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.klantUpdatenPopup.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
